@@ -1,0 +1,9 @@
+# Build output
+build/
+
+# The CppModel SDK, extracted locally (see README)
+dependencies/
+
+# Written by every run
+.cppmodeltoken
+cppmodel-requirements.json
