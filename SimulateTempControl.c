@@ -62,5 +62,5 @@ int main(void)
     int result = CppModel_getSimulationResult(simulation);
     CppModel_destroy(simulation);
 
-    return result;
+    return result == 0 ? 0 : 1;
 }
